@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 600px;
+    border: 3px solid black;
+    height: 400px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.showindiv1{
+    display: none;
+}
+.showindiv2{
+    display: none;
+}
+.active{
+    display: block;
+}

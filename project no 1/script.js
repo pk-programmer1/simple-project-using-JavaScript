@@ -16,7 +16,7 @@ const openedFace = document.querySelector(".open");
 
 
 closedFace.addEventListener('click', () => {
-
+    
         openedFace.classList.toggle('active');
 
         closedFace.classList.toggle('active');
